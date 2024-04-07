@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-color : #2d2d2f;
+    --white-color: white;
+    --black-color: black;
+    --aqua-color: #26b0a1;
+    --gray-color: rgb(168, 168, 168);
+    --height-top : 70px;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 1.6rem;
+    font-family: "Roboto", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 100%;
+    vertical-align: top;
+}
+.container{
+    display: block;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+@media (max-width: 1200px){
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+
