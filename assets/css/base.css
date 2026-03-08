@@ -12,6 +12,7 @@
     --gray-color: rgb(168, 168, 168);
     --height-top : 70px;
 }
+
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
