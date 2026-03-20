@@ -194,7 +194,7 @@ function ProjectsRender() {
       const tech = (item.used || [])
         .map(
           (i) =>
-            `<div class="svg"><img width="${arrTech[i]?.w ?? "auto"}" height="${arrTech[i]?.h ?? "auto"}" src='/assets/img/svg/${arrTech[i]?.path}' /></div>`,
+            `<div class="svg"><img width="${arrTech[i]?.w ?? "auto"}" height="${arrTech[i]?.h ?? "auto"}" src='assets/img/svg/${arrTech[i]?.path}' /></div>`,
         )
         .join("");
 

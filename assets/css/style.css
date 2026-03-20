@@ -851,7 +851,8 @@
   font-size: 2.5rem;
 }
 
-.experience_box_item_img svg {
+.experience_box_item_img svg,
+.experience_box_item_img img {
   --wh: 70px;
   width: var(--wh);
   height: var(--wh);
@@ -898,6 +899,7 @@
 .experience_box_item_text {
   color: var(--white-color);
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .experience_box_item_btn a {
